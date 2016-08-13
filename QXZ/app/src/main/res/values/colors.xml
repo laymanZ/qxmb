@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00aeef</color>
+    <color name="colorPrimaryDark">#00aeef</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 开始界面全屏时跳转到登录界面会有标题栏突然出现而不是平滑出现
+        如果想改成平滑出现，一次改成白色标题栏背景，这样才可以平滑过渡-->
+    <color name="colorPrimary2">#ffffff</color>
+    <color name="colorPrimaryDark2">#ffffff</color>
+    <color name="colorAccent2">#FF4081</color>
+    <!--floatingActionButton的样式-->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <!--以上是floatingActionButton的样式-->
+    <!--以下是用户信息界面的样式-->
+    <color name="info_dark">#000000</color>
+
+    <!-- swipeRefreshLayout的样式-->
+    <color name="first_color">#00aeef</color>
+    <color name="second_color">#FF7F00</color>
+
+    <!-- 皮肤-->
+    <color name="color_red_skin">#cc6600</color>
+    <color name="color_black_skin">#212121</color>
+
+
+    <!-- 分享-->
+    <color name="share_bg">#00ffffff</color>
+
+    <!-- 登录注册-->
+    <color name="login_fab_color">#3F51B5</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这是关于界面-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.z.about.MyVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/play"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/about_button"
+            android:textColor="@android:color/white"
+            android:text="播 放"/>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_marginLeft="24dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/about_button"
+            android:textColor="@android:color/white"
+            android:text="返 回"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_tx1"
+        android:textSize="64dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="64dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

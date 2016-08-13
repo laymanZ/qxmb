@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+ 这里需要将android:checkableBehavior="single"去掉，然后给每个item项添加android:checkable="true"，
+ 可以实现点击子菜单时颜色选中的也是子菜单
+-->
+    <group>
+        <item android:id="@+id/qx_index"
+            android:checkable="true"
+            android:icon="@drawable/iconfont_home"
+            android:title="@string/qx_index" />
+        <item android:id="@+id/about"
+            android:checkable="true"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/qx_about" />
+        <item android:id="@+id/skin"
+            android:icon="@drawable/iconfont_skin"
+            android:checkable="true"
+            android:title="@string/qx_night_model" />
+        <item android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:checkable="true"
+            android:title="@string/qx_user_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:checkable="true"
+                android:title="@string/qx_feeling" />
+            <item android:id="@+id/nav_send"
+                android:checkable="true"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/qx_forum" />
+        </menu>
+    </item>
+
+</menu>

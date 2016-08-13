@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">青协会员</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- 个性签名-->
+    <string name="signature">青协，热爱你的生活</string>
+
+    <!-- 注册界面-->
+    <string name="please_email">请输入邮箱</string>
+    <string name="please_username">请输入用户名</string>
+    <string name="please_password">请输入密码</string>
+    <string name="please_password_again">请再次输入密码</string>
+    <string name="regist">注册</string>
+
+
+    <!-- 引导、登录界面-->
+    <string name="username_email">用户名/手机号/邮箱</string>
+    <string name="can_not_login">无法登录?</string>
+    <string name="new_user">新用户</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome_text">欢迎</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+
+    <!-- 导航菜单-->
+    <string name="qx_index">首页</string>
+    <string name="qx_user_settings">我的设置</string>
+    <string name="qx_night_model">主题换肤</string>
+    <string name="qx_forum">小小话语</string>
+    <string name="qx_feeling">分享心情</string>
+    <string name="qx_about">关于</string>
+    <string name="action_settings">设置</string>
+
+    <!--用户信息界面-->
+    <string name="info_title">My Information</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_xiang_ce">从相册选择</string>
+    <string name="changeHead">修改头像</string>
+    <string name="cancel">取消</string>
+
+    <!--关于界面-->
+    <string name="about_tx1">激情</string>
+    <string name="about_tx2">并非总在远方</string>
+    <string name="about_tx3">青协</string>
+    <string name="about_tx4">热爱你的生活</string>
+
+    <!-- 皮肤-->
+    <string name="skin_blue">默认蓝</string>
+    <string name="skin_red">高贵红</string>
+    <string name="skin_black">炫酷黑</string>
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+
+    <!-- 分享-->
+    <string name="share_cancel">取消</string>
+    <string name="shareBlog">微博</string>
+    <string name="weixinFriend">微信好友</string>
+    <string name="weixinFriendQuan">朋友圈</string>
+    <string name="qq">QQ</string>
+	
+	<string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
+    <string name="laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    
+	<string name="sinaweibo">新浪微博</string>
+	<string name="tencentweibo">腾讯微博</string>
+	<string name="qzone">QQ空间</string>
+	<string name="wechat">微信好友</string>
+	<string name="wechatmoments">微信朋友圈</string>
+	<string name="wechatfavorite">微信收藏</string>
+	<string name="facebook">Facebook</string>
+	<string name="twitter">Twitter</string>
+	<string name="renren">人人网</string>
+	<string name="kaixin">开心网</string>
+	<string name="email">邮件</string>
+	<string name="shortmessage">信息</string>
+	<string name="sohumicroblog">搜狐微博</string>
+	<string name="sohusuishenkan">搜狐随身看</string>
+	<string name="neteasemicroblog">网易微博</string>
+	<string name="douban">豆瓣</string>
+	<string name="youdao">有道云笔记</string>
+	<string name="evernote">印象笔记</string>
+	<string name="linkedin">领英</string>
+	<string name="googleplus">Google+</string>
+	<string name="foursquare">FourSquare</string>
+
+	<string name="pinterest">Pinterest</string>
+	<string name="flickr">Flickr</string>
+	<string name="tumblr">Tumblr</string>
+	<string name="dropbox">Dropbox</string>
+	<string name="vkontakte">VK</string>
+	<string name="instagram">Instagram</string>
+	<string name="yixin">易信</string>
+	<string name="yixinmoments">易信朋友圈</string>
+	<string name="mingdao">明道</string>
+	<string name="kakaotalk">KakaoTalk</string>
+	<string name="kakaostory">KakaoStory</string>
+	<string name="line">Line</string>
+	<string name="bluetooth">蓝牙</string>
+	<string name="whatsapp">WhatsApp</string>
+	<string name="pocket">Pocket</string>
+	<string name="instapaper">Instapaper</string>
+	<string name="instapaper_email">邮箱</string>
+	<string name="instapaper_pwd">密码</string>
+	<string name="instapaper_login">登录</string>
+	<string name="instapaper_logining">登录中…</string>
+	<string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="baidutieba">百度贴吧</string>
+    <string name="laiwang">来往</string>
+    <string name="laiwangmoments">来往动态</string>
+
+	<string name="share_to_baidutieba">分享到百度贴吧</string>
+	<string name="share_to_qzone">分享到QQ空间</string>
+	<string name="share_to_qq">分享到QQ</string>
+	<string name="mingdao_share_content">网页分享</string>
+	<string name="share_to_mingdao">分享到明道</string>
+	<string name="share_to_qzone_default">来自%s的分享</string>
+	<string name="use_login_button">请改用“登录”按钮</string>
+</resources>

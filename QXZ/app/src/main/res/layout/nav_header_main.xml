@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--抽屉顶部-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    skin:enable="true">
+
+    <!-- 用户头像-->
+    <ImageView
+        android:id="@+id/user_head_portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"/>
+    <!-- 用户名-->
+    <TextView
+        android:layout_below="@id/user_head_portrait"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="username"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <!-- 应用名称-->
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/user_signature"
+        android:layout_below="@id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signature" />
+
+</RelativeLayout>
